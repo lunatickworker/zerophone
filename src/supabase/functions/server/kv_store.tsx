@@ -13,8 +13,8 @@ CREATE TABLE kv_store_cedf43d3 (
 import { createClient } from "@supabase/supabase-js";
 
 const client = () => createClient(
-  process.env.get("SUPABASE_URL"),
-  process.env.get("SUPABASE_SERVICE_ROLE_KEY"),
+  process.env.SUPABASE_URL!,
+  process.env.SUPABASE_SERVICE_ROLE_KEY!,
 );
 
 // Set stores a key-value pair in the database.
