@@ -17,18 +17,18 @@ const userGrades = {
 
 const orderHistory = [
   {
-    id: 'ZP20240115001',
+    id: 'ZP20250115001',
     product: 'iPhone 15 Pro 128GB 티타늄 블루',
     price: 1280000,
-    date: '2024-01-15',
+    date: '2025-01-15',
     status: 'delivered',
     image: 'https://images.unsplash.com/photo-1695619575333-fc73accd441e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHhpcGhvbmUlMjBzYW1zdW5nJTIwbHV4dXJ5JTIwcGhvbmVzfGVufDF8fHx8MTc1NzEzNzQzM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
   },
   {
-    id: 'ZP20240105002',
+    id: 'ZP20250105002',
     product: 'Galaxy S23 256GB 팬텀 블랙',
     price: 890000,
-    date: '2024-01-05',
+    date: '2025-01-05',
     status: 'delivered',
     image: 'https://images.unsplash.com/photo-1698613080997-d3573f22b82c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBwaG9uZSUyMGNvbGxlY3Rpb24lMjBzaG93Y2FzZXxlbnwxfHx8fDE3NTcxMzc0MzN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
   }
@@ -276,14 +276,14 @@ export function UserProfile() {
                           product: 'iPhone 15 Pro',
                           rating: 5,
                           content: '정말 깨끗한 상태로 왔어요! 검수도 꼼꼼히 해주시고 포장도 완벽했습니다.',
-                          date: '2024-01-16',
+                          date: '2025-01-16',
                           helpful: 12
                         },
                         {
                           product: 'Galaxy S23',
                           rating: 4,
                           content: '배터리 성능도 좋고 외관도 거의 새것 같아요. 가격도 합리적이고 만족합니다.',
-                          date: '2024-01-06',
+                          date: '2025-01-06',
                           helpful: 8
                         }
                       ].map((review, index) => (
@@ -404,9 +404,9 @@ export function UserProfile() {
                   <CardContent>
                     <div className="grid md:grid-cols-2 gap-4">
                       {[
-                        { name: '신규회원 10% 할인', discount: '10%', minAmount: 100000, expires: '2024-12-31' },
-                        { name: '골드등급 5% 할인', discount: '5%', minAmount: 50000, expires: '2024-12-31' },
-                        { name: '생일축하 20% 할인', discount: '20%', minAmount: 200000, expires: '2024-02-15' }
+                        { name: '신규회원 10% 할인', discount: '10%', minAmount: 100000, expires: '2025-12-31' },
+                        { name: '골드등급 5% 할인', discount: '5%', minAmount: 50000, expires: '2025-12-31' },
+                        { name: '생일축하 20% 할인', discount: '20%', minAmount: 200000, expires: '2025-02-15' }
                       ].map((coupon, index) => (
                         <div key={index} className="border border-dashed border-yellow-400 rounded-lg p-4 bg-yellow-50">
                           <div className="text-center">

@@ -382,9 +382,9 @@ export function ProductDetail({ productId }: ProductDetailProps) {
                 <CardContent>
                   <div className="space-y-6">
                     {[
-                      { author: "김****", rating: 5, content: "정말 깨끗한 상태로 왔어요! 검수도 꼼꼼히 해주시고 포장도 완벽했습니다.", date: "2024-01-15" },
-                      { author: "박****", rating: 5, content: "배터리 성능도 좋고 외관도 거의 새것 같아요. 가격도 합리적이고 만족합니다.", date: "2024-01-12" },
-                      { author: "이****", rating: 4, content: "전체적으로 만족하지만 약간의 사용감은 있어요. 그래도 가성비는 최고!", date: "2024-01-10" }
+                      { author: "김****", rating: 5, content: "정말 깨끗한 상태로 왔어요! 검수도 꼼꼼히 해주시고 포장도 완벽했습니다.", date: "2025-01-15" },
+                      { author: "박****", rating: 5, content: "배터리 성능도 좋고 외관도 거의 새것 같아요. 가격도 합리적이고 만족합니다.", date: "2025-01-12" },
+                      { author: "이****", rating: 4, content: "전체적으로 만족하지만 약간의 사용감은 있어요. 그래도 가성비는 최고!", date: "2025-01-10" }
                     ].map((review, index) => (
                       <div key={index} className="border-b border-gray-100 pb-6 last:border-0">
                         <div className="flex items-center justify-between mb-3">

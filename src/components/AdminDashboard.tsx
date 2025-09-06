@@ -161,8 +161,8 @@ export function AdminDashboard() {
         status: "completed",
         paymentMethod: "카드결제",
         shippingAddress: "서울시 강남구",
-        createdAt: "2024-01-15T10:30:00Z",
-        deliveredAt: "2024-01-17T14:20:00Z"
+        createdAt: "2025-01-15T10:30:00Z",
+        deliveredAt: "2025-01-17T14:20:00Z"
       }
     ]);
 

@@ -19,7 +19,7 @@ const communityPosts = [
   {
     id: 2,
     type: "discussion",
-    title: "2024년 최고의 중고폰 브랜드는?",
+    title: "2025년 최고의 중고폰 브랜드는?",
     author: "박****",
     poll: { total: 1567, apple: 45, samsung: 35, google: 20 },
     likes: 89,

@@ -117,7 +117,7 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-gray-400 text-sm">
-              © 2024 ZeroPhone. All rights reserved.
+              © 2025 ZeroPhone. All rights reserved.
             </div>
             <div className="flex gap-6 text-gray-400 text-sm">
               <a href="#" className="hover:text-yellow-400 transition-colors">이용약관</a>
@@ -127,7 +127,7 @@ export function Footer() {
             </div>
           </div>
           <div className="mt-4 text-gray-500 text-xs">
-            <p>제로폰 주식회사 | 대표: 김제로 | 사업자등록번호: 123-45-67890 | 통신판매업신고: 2024-서울강남-12345</p>
+            <p>제로폰 주식회사 | 대표: 김제로 | 사업자등록번호: 123-45-67890 | 통신판매업신고: 2025-서울강남-12345</p>
             <p>주소: 서울특별시 강남구 테헤란로 123길 45 | 개인정보보호책임자: 이보호 (privacy@zerophone.co.kr)</p>
           </div>
         </div>
